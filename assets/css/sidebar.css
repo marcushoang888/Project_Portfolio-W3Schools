@@ -1,0 +1,46 @@
+/* SIDEBAR */
+
+
+.sidebar-img {
+  width: 120.6px;
+  height: 120.6px;
+  border-radius: 4px;
+  background-image: url("../img/profile/profile-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sidebar-name {
+  padding-top: 35px;
+  padding-bottom: 15px;
+  font-weight: 600;
+}
+
+.sidebar-description {
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+.sidebar-nav {
+    margin-bottom: 16px;
+}
+.sidebar-nav-item {
+    padding: 8px 0;
+    
+}
+
+.sidebar-nav-item:first-child {
+
+    color: #009688 ;
+}
+.sidebar-nav-item i {
+    margin-right: 16px ;
+}
+.sidebar-social {
+    padding: 0.18px 0;
+}
+.sidebar-social-item {
+    display: inline-block;
+    font-size: 18px;
+}
+
