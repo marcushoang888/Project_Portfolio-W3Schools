@@ -1,25 +1,30 @@
 /* MAIN CONTENT */
 
-/* HEADER */
-.header h1 {
-  margin-top: -12px;
-}
+
 
 /* NAVBAR */
 
 .nav {
-  display: flex;
-  justify-content: space-between;
+  padding: 16px;
+  margin-left: 300px;
+  display: none;
   align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.3s;
 }
-
 
 .nav-icon {
   font-size: 36px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 16px;
 }
 
 .nav-icon:hover {
-    color: #757575;
+  color: #757575;
+  background-color: #ccc;
 }
 
 .nav-avatar a {
@@ -32,34 +37,7 @@
 }
 
 .nav-avatar a:hover {
-    opacity: 0.6;
-}
-/* PORTFOLIO */
-
-.portfolio-filter {
-  padding: 16px 0;
-  margin: 16px 0;
-  border-bottom: 6px solid #ccc;
+  opacity: 0.6;
 }
 
-.portfolio-label {
-  margin-right: 16px;
-}
-.portfolio-btn {
-  display: inline-block;
-  background: #fff;
-  padding: 8px 16px;
-  cursor: pointer;
-}
-.portfolio-btn i {
-  margin-right: 16px;
-}
-.portfolio-btn--active {
-  background-color: #000;
-  color: #fff;
-}
 
-.portfolio-btn:hover {
-  background: #ccc;
-  color: black;
-}

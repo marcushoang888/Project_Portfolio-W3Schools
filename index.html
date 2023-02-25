@@ -9,14 +9,22 @@
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/sidebar.css" />
     <link rel="stylesheet" href="./assets/css/main-content.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
     <link rel="stylesheet" href="./assets/css/query.css" />
+    <link rel="stylesheet" href="./assets/css/function.css" />
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
 
     <!-- ICON -->
@@ -28,6 +36,10 @@
       referrerpolicy="no-referrer"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <!-- FAVICON -->
     <link
       rel="apple-touch-icon"
@@ -53,6 +65,17 @@
   </head>
   <body>
     <div class="container">
+      <!-- NAVBAR -->
+      <nav class="nav">
+        <a href="#">
+          <i class="fa-sharp fa-solid fa-bars nav-icon"></i>
+        </a>
+
+        <div class="nav-avatar">
+          <a href="#"></a>
+        </div>
+      </nav>
+
       <!-- SIDEBAR -->
       <aside class="sidebar">
         <div class="sidebar-img"></div>
@@ -109,54 +132,311 @@
       </aside>
 
       <div class="main-content">
-        <!-- NAVBAR -->
-        <nav class="nav">
-          <a href="#">
-            <i class="fa-sharp fa-solid fa-bars nav-icon"></i>
-          </a>
-
-          <div class="nav-avatar">
-            <a href="#"></a>
-          </div>
-        </nav>
-        <!-- HEADER -->
-        <header class="header">
-          <h1>My Portfolio</h1>
-        </header>
-
         <main>
           <!-- PORTFOLIO -->
           <section id="portfolio">
-            <form class="portfolio-filter" action="">
-              <label class="portfolio-label" for="">Filter:</label>
-              <button class="portfolio-btn portfolio-btn--active">ALL</button>
-              <button class="portfolio-btn">
-                <i class="fa-regular fa-gem"></i>Design
-              </button>
-              <button class="portfolio-btn">
-                <i class="fa-regular fa-image"></i>Photos
-              </button>
-              <button class="portfolio-btn">
-                <i class="fa-solid fa-map-pin"></i>Art
-              </button>
-            </form>
+            <div class="container-sm">
+              <!-- HEADER -->
+              <header class="header">
+                <h1 class="">My Portfolio</h1>
+              </header>
+  
+              <!-- FILTER -->
+              <form class="portfolio-filter" action="">
+                <label class="portfolio-label" for="">Filter:</label>
+                <button class="portfolio-btn active-black hover-grey">ALL</button>
+                <button class="portfolio-btn hover-grey">
+                  <i class="fa-regular fa-gem"></i>Design
+                </button>
+                <button class="portfolio-btn portfolio-btn-hidden hover-grey">
+                  <i class="fa-regular fa-image"></i>Photos
+                </button>
+                <button class="portfolio-btn portfolio-btn-hidden hover-grey">
+                  <i class="fa-solid fa-map-pin"></i>Art
+                </button>
+              </form>
+  
+              <!-- WEB LIST -->
+              <div class="portfolio-website">
+                <div class="portfolio-website-item">
+                  <img src="./assets/img/web/web-1.jpg" alt="" />
+                  <div class="portfolio-website-text">
+                    <p class="portfolio-website-title">Lorem Ipsum</p>
+                    <p class="portfolio-website-information">
+                      Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                      condimentum, porta lectus vitae, ultricies congue gravida
+                      diam non fringilla.
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="portfolio-website-item">
+                  <img src="./assets/img/web/web-2.jpg" alt="" />
+                  <div class="portfolio-website-text">
+                    <p class="portfolio-website-title">Lorem Ipsum</p>
+                    <p class="portfolio-website-information">
+                      Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                      condimentum, porta lectus vitae, ultricies congue gravida
+                      diam non fringilla.
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="portfolio-website-item">
+                  <img src="./assets/img/web/web-3.jpg" alt="" />
+                  <div class="portfolio-website-text">
+                    <p class="portfolio-website-title">Lorem Ipsum</p>
+                    <p class="portfolio-website-information">
+                      Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                      condimentum, porta lectus vitae, ultricies congue gravida
+                      diam non fringilla.
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="portfolio-website-item">
+                  <img src="./assets/img/web/web-4.jpg" alt="" />
+                  <div class="portfolio-website-text">
+                    <p class="portfolio-website-title">Lorem Ipsum</p>
+                    <p class="portfolio-website-information">
+                      Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                      condimentum, porta lectus vitae, ultricies congue gravida
+                      diam non fringilla.
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="portfolio-website-item">
+                  <img src="./assets/img/web/web-5.jpg" alt="" />
+                  <div class="portfolio-website-text">
+                    <p class="portfolio-website-title">Lorem Ipsum</p>
+                    <p class="portfolio-website-information">
+                      Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                      condimentum, porta lectus vitae, ultricies congue gravida
+                      diam non fringilla.
+                    </p>
+                  </div>
+                </div>
+  
+                <div class="portfolio-website-item">
+                  <img src="./assets/img/web/web-6.jpg" alt="" />
+                  <div class="portfolio-website-text">
+                    <p class="portfolio-website-title">Lorem Ipsum</p>
+                    <p class="portfolio-website-information">
+                      Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                      condimentum, porta lectus vitae, ultricies congue gravida
+                      diam non fringilla.
+                    </p>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- INDEX -->
+              <div class="portfolio-index">
+                <button class="portfolio-index-btn hover-black" type="submit">
+                  <span class="material-symbols-outlined">
+                    keyboard_double_arrow_left
+                  </span>
+                </button>
+  
+                <button
+                  class="portfolio-index-btn active-black hover-grey"
+                  type="submit"
+                >
+                  1
+                </button>
+  
+                <button class="portfolio-index-btn hover-black" type="submit">
+                  2
+                </button>
+  
+                <button class="portfolio-index-btn hover-black" type="submit">
+                  3
+                </button>
+  
+                <button class="portfolio-index-btn hover-black" type="submit">
+                  4
+                </button>
+  
+                <button class="portfolio-index-btn hover-black" type="submit">
+                  <span class="material-symbols-outlined">
+                    keyboard_double_arrow_right
+                  </span>
+                </button>
+              </div>
+
+            </div>
           </section>
 
           <!-- ABOUT -->
-          <section id="about"></section>
+          <section id="about">
+
+            <div class="container-sm">
+              <!-- IMAGE -->
+              <div class="about-img">
+                <img src="./assets/img/profile/profile-1.jpg" alt="" class="about-img-item">
+  
+                <img src="./assets/img/profile/profile-2.jpg" alt="" class="about-img-item">
+              </div>
+              <div class="about-heading">
+c
+                  <p class="about-description">
+                    Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+  
+  
+                  </p>
+              </div>
+                
+              <!-- TECHNICAL SKILLS -->
+              <div class="about-skill">
+                <div class="heading4-box">
+                    <h4>Technical Skills</h4>
+                </div>
+
+                <div class="about-bar">
+                  <p class="bar-name">Photography</p>
+                  <div class="bar-level">
+                    <div class="bar-level-percent bar-level-percent-95"></div>
+                  </div>
+                </div>
+
+                <div class="about-bar">
+                  <p class="bar-name">Web Design</p>
+                  <div class="bar-level">
+                    <div class="bar-level-percent bar-level-percent-85"></div>
+                  </div>
+                </div>
+
+                <div class="about-bar">
+                  <p class="bar-name">Photoshop</p>
+                  <div class="bar-level">
+                    <div class="bar-level-percent bar-level-percent-80"></div>
+                  </div>
+                </div>
+
+                <button class="download" type="submit"><i class="fa-sharp fa-solid fa-download"></i> Download Resume</button>
+              </div>
+
+              <!-- HOW MUCH I CHARGE -->
+              <div class="about-plan">
+                <div class="heading4-box">
+                  <h4>How much I charge</h4>
+              </div>
+
+              <div class="box">
+                <div class="box-item">
+                  <div class="box-item-heading">
+                    <h6>Basic</h6>
+                  </div>
+
+                  <div class="box-item-list">
+                    <ul>
+
+                      <li class="box-item-list-i">
+                        Web Design
+                      </li>
+                      <li class="box-item-list-i">Photography</li>
+                      <li class="box-item-list-i">1GB Storage</li>
+                      <li class="box-item-list-i">Mail Support</li>
+                      <li class="box-item-list-i"><p>$10</p> <span>per month</span> </li>
+                    </ul>
+                  </div>
+               
+                  <div class="box-item-btn ">
+                    <button class="box-signup green">Sign Up</button>
+                  </div>
+                </div>
+
+                <div class="box-item">
+                  <div class="box-item-heading green">
+                    <h6>Pro</h6>
+                  </div>
+
+                  <div class="box-item-list">
+                    <ul>
+
+                      <li class="box-item-list-i">
+                        Web Design
+                      </li>
+                      <li class="box-item-list-i">Photography</li>
+                      <li class="box-item-list-i">50GB Storage</li>
+                      <li class="box-item-list-i">Endless Support</li>
+                      <li class="box-item-list-i"><p>$25</p> <span>per month</span> </li>
+                    </ul>
+                  </div>
+               
+                  <div class="box-item-btn ">
+                    <button class="box-signup green">Sign Up</button>
+                  </div>
+                </div>
+
+                <div class="box-item">
+                  <div class="box-item-heading">
+                    <h6>Premium</h6>
+                  </div>
+
+                  <div class="box-item-list">
+                    <ul>
+
+                      <li class="box-item-list-i">
+                        Web Design
+                      </li>
+                      <li class="box-item-list-i">Photography</li>
+                      <li class="box-item-list-i">Unlimited Storage</li>
+                      <li class="box-item-list-i">Endless Support</li>
+                      <li class="box-item-list-i"><p>$25</p> <span>per month</span> </li>
+                    </ul>
+                  </div>
+               
+                  <div class="box-item-btn ">
+                    <button class="box-signup green">Sign Up</button>
+                  </div>
+                </div>
+
+              </div>
+     
+              
+
+            </div>
+          </section>
 
           <!-- CONTACT -->
-          <section id="contact"></section>
+          <section id="contact">
+            <div class="container-sm">
+              <div class="contact-heading">
+                <div class="heading3-box">
+                  <h3>Contact Me</h3>
+                </div>
+              </div>
+
+              <div class="contact-icon">
+                <div class="contact-icon-item">
+                  <i class="fa-solid fa-envelope"></i>
+                  <p>                  email@email.com</p>
+
+                </div>
+
+
+                <div class="contact-icon-item green">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>Chicago, US</p>
+
+                </div>
+
+
+                <div class="contact-icon-item">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>                  512312311</p>
+
+                </div>
+
+              </div>
+            </div>
+          </section>
         </main>
 
-        <footer></footer>
+        <footer class="footer"></footer>
       </div>
-    </div>
-
-    <div>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae asperna
-      excepturi iure a sit delectus atque enim praesentium rerum perspiciatis
-      velit quidem non niveritatis ex quibusdam illum, reiciendis debitis!
     </div>
   </body>
 </html>

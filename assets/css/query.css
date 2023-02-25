@@ -1,16 +1,27 @@
 @media (max-width: 993px) {
-    .sidebar {
-        display: none;
-    }
+  .sidebar {
+    transform: translateX(-100%);
+  }
 
-    .container {
-    grid-template-columns:  1fr;
-    }
+  .main-content,
+  .nav {
+    margin-left: 0;
+  }
 
-    
+  .nav {
+    display: flex;
+  }
+
 
 }
 
 @media (max-width: 600px) {
-    
+    .portfolio-btn-hidden {
+        display: none;
+    }
+
+    .portfolio-website, 
+    .about-img {
+        grid-template-columns: 1fr ;
+    }
 }

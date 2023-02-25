@@ -1,0 +1,29 @@
+/* CONTACT */
+
+#contact {
+    background-color: #9e9e9e;
+}
+
+.contact-icon {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 14px 0;
+
+}
+
+.contact-icon-item {
+    background: #616161;
+    padding: 0 8px;
+    text-align: center;
+    color:#fff;
+}
+
+.contact-icon-item i  {
+    font-size: 36px;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.contact-icon-item p {
+    margin: 15px 0;
+}

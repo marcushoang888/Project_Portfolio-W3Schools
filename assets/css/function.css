@@ -1,0 +1,26 @@
+.hover-grey:hover {
+    background: #ccc;
+    color: black;
+  }
+  
+  
+  .hover-black:hover,
+  .active-black {
+    background: #000;
+    color: white;
+  }
+
+.heading3-box {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.heading4-box {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.green {
+  background-color: #009688;
+}
