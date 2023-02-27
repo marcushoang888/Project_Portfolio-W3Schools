@@ -30,7 +30,6 @@
 }
 
 .sidebar-nav-item:first-child {
-
     color: #009688 ;
 }
 .sidebar-nav-item i {
@@ -42,5 +41,12 @@
 .sidebar-social-item {
     display: inline-block;
     font-size: 18px;
+}
+
+.sidebar-social-item:hover {
+    opacity: 0.6;
+}
+.sidebar-social-item  a {
+    cursor: default;
 }
 

@@ -23,6 +23,8 @@ button {
 }
 
 img {
+  display: block;
+  height: auto;
   width: 100%;
 }
 
@@ -42,17 +44,23 @@ h2 {
 h6 {
   font-size: 24px;
 }
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
-}
 
-.container-sm {
+.container-fluid {
   width: 100%;
   padding: 0 16px;
   margin: 0 auto;
 }
 
+.container-sm {
+  width: 100%;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+.app-container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1600px;
+}
 .sidebar {
   width: 300px;
   height: 100vh;
@@ -65,7 +73,6 @@ h6 {
 
 .main-content {
   margin-left: 300px;
-  padding: 23px 0;
   background: inherit;
   transition: all 0.3s;
 }

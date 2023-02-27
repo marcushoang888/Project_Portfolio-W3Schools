@@ -1,11 +1,7 @@
-/* MAIN CONTENT */
-
-
 
 /* NAVBAR */
 
-.nav {
-  padding: 16px;
+.nav-container {
   margin-left: 300px;
   display: none;
   align-items: flex-start;
@@ -27,6 +23,9 @@
   background-color: #ccc;
 }
 
+.nav-avatar {
+  margin: 16px 0;
+}
 .nav-avatar a {
   background-image: url("../img/profile/profile-1.jpg");
   border-radius: 50%;
