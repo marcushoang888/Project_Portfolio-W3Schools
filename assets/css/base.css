@@ -1,7 +1,13 @@
-* {
-  padding: 0;
+*,
+*::after,
+*::before {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -12,17 +18,21 @@ body {
   background-color: #f1f1f1;
 }
 
-a,
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 input,
 button {
   display: block;
   font: inherit;
   color: inherit;
   border: none;
-  text-decoration: none;
 }
 
-img {
+img, iframe {
   display: block;
   height: auto;
   width: 100%;
@@ -57,10 +67,10 @@ h6 {
   margin: 0 auto;
 }
 .app-container {
-  width: 100%;
   margin: 0 auto;
   max-width: 1600px;
 }
+
 .sidebar {
   width: 300px;
   height: 100vh;
